@@ -1,7 +1,4 @@
 public abstract class FruitFactory {
-    public Fruit fetchFruit(){
-        Fruit fruit = createFruit();
-        return fruit;
-    }
+    //change to interface or keep as abstract?
     public abstract Fruit createFruit();
 }
