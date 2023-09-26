@@ -1,0 +1,2 @@
+Apple:40
+Banana:30
