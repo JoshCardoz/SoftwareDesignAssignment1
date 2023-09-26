@@ -1,8 +1,12 @@
-public class AppleFactory extends FruitFactory{
+
+
+public class AppleFactory implements GroceryProductFactory{
+
     @Override
     public Fruit createFruit() {
         Fruit apple = new Apple();
-        apple.setPrice(20); //fetch from textfile reader or some shit
+        double price = FileReader.readFile(apple.getName());
+        apple.setPrice(price);
 
         return apple;
     }

@@ -1,8 +1,9 @@
 public class Apple implements Fruit{
     double price = 0;
+    String name = "Apple";
     @Override
     public String getFruit() {
-        return "Apple has been created!";
+        return this.name + " has been created!";
     }
 
     @Override
@@ -13,5 +14,10 @@ public class Apple implements Fruit{
     @Override
     public double getPrice() {
         return this.price;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 }
