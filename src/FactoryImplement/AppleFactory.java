@@ -1,6 +1,6 @@
+package FactoryImplement;
 
-
-public class AppleFactory implements GroceryProductFactory{
+public class AppleFactory implements GroceryProductFactory {
 
     @Override
     public Fruit createFruit() {
