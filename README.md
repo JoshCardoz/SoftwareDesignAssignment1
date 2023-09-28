@@ -4,8 +4,7 @@ Members: Nisarg Bharucha (100820217), Shiv Patel (100818727), Joshua Cardoz (100
 
 ![image](https://github.com/Vromaniac/SoftwareDesignAssignment1/assets/115129648/cf451f65-9bdb-468a-a609-0cdfda094d14)
 
-
-All of the relevant code and files are located within our "src" folder. 
+ 
 Firstly, the "Fruit" interface helps with the creation of new fruit classes, such as "Banana" and "Apple". These classes inherit the methods from the interface, such as getters and setters for price, and getting the name of the fruit. 
 
 Once the fruit objects can be created, we then use the second interface, the "GroceryProductInterface" to help with creating these fruit objects. Both the "AppleFactory" and "BananaFactory" inherit this interface, and create their respective fruits. Once the fruits have been created in these factories, the factories then call a method from the "FileReader" class, to fetch the price of the fruit from the mock database (prices.txt) and sets the price of the fruit to that value.
