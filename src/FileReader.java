@@ -9,7 +9,7 @@ public class FileReader {
 
     public static Double readFile(String fruit) {
         try {
-            String filePath = "src/prices.txt";
+            String filePath = "test/prices.txt";
 
             File file = new File(filePath);
             Scanner reader = new Scanner(file);
