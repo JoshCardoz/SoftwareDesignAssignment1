@@ -1,8 +1,6 @@
-package FactoryImplement;
-
-public class Banana implements Fruit {
+public class Apple implements Fruit {
     double price = 0;
-    String name = "Banana";
+    String name = "Apple";
     @Override
     public String getFruit() {
         return this.name + " has been created!";

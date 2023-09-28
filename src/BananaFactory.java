@@ -1,5 +1,3 @@
-package FactoryImplement;
-
 public class BananaFactory implements GroceryProductFactory {
     @Override
     public Fruit createFruit() {

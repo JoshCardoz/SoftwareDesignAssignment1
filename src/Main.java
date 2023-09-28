@@ -1,9 +1,4 @@
-import FactoryImplement.AppleFactory;
-import FactoryImplement.BananaFactory;
-import FactoryImplement.Fruit;
-import FactoryImplement.GroceryProductFactory;
-
-public class test {
+public class Main {
     public static void main(String[] args) {
         GroceryProductFactory factory1 = new AppleFactory();
         GroceryProductFactory factory2 = new BananaFactory();
